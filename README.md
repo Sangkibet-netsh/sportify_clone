@@ -2,7 +2,7 @@
 
 Develop an elegant React.js Music Application. 
 
-Check out the complete project requirements [here](https://docs.google.com/document/d/13PeFwRlPEhMw_HPyrIrInvQuKaVWnpNmcv-y3NA208s/edit?usp=sharing)
+Check out the complete project requirements [here](https://docs.google.com/document/d/1YyuT2F0drXAH1vrCkVZR3Ho9l5jQyeCOryMxJdx0DMc/edit?usp=sharing)
 
 # Contributing
 
