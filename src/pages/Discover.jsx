@@ -4,9 +4,9 @@ import {useGetTopChartsQuery} from '../redux/services/shazam'
 
 function Discover (){
     const {data, isFetching, error}= useGetTopChartsQuery();
-    if(isFetching) return <Loader title="Loading songs...." />;
+    if(isFetching) return <Loader title="Loading songs..."/>;
 
-    if(isFetching) return <Error />;
+    if(error) return <Error />;
 
 
 
