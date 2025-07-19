@@ -15,6 +15,19 @@ function SongCard ({song,i}){
         </div>
         <img alt="song_img" src={song?.attributes?.artwork?.url} className="w-full h-full rounded-lg" />
       </div>
+      <div className="mt-4 flex flex-col">
+        <p className="font-semibold text-lg text-white truncate">
+          <Link to={`/songs/${song?.key}`}>
+              {song.attributes?.name}
+
+          </Link>
+        </p>
+        <p className="text-sm truncate text-gray-300 mt-1">
+          <Link to={song.artists ? `/artists/${song?.artists[0]?.adamid}` : '/top-artists'}>
+              {song.attributes?.artistName}
+          </Link>
+        </p>
+      </div>
      </div>
 
   );
