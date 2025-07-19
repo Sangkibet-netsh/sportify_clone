@@ -1,4 +1,4 @@
-# Project Lyrics
+# Project Sportify Clone
 
 Develop an elegant React.js Music Application. 
 
